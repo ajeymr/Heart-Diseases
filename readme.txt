@@ -57,9 +57,9 @@ restecg: resting electrocardiographic results
 slope: the slope of the peak exercise ST segment
 0: downsloping; 1: flat; 2: upsloping
 
-thal: 1 = fixed defect; 2 = normal; 7 = reversable defect
+thal:  3 = normal; 6 = fixed defect; 7 = reversable defect
 
-target (maybe THE most important feature): 0 = disease, 1 = no disease
+target (maybe THE most important feature): 0 = no disease, 1 = disease (for this dataset as i used the original dataset and cleaned)
 
 A few more things to consider:
 data #93, 139, 164, 165 and 252 have ca=4 which is incorrect. In the original Cleveland dataset they are NaNs (so they should be removed)
