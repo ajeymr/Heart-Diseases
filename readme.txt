@@ -43,6 +43,8 @@ For some unknown reason, the dataset for download on Kaggle is VERY different fr
 And what's worse: the description here on Kaggle is the same as the one in the Cleveland page, that means every interpretation you make based on the Kaggle dataset is WRONG.
 So here it goes, the CORRECT description of the kaggle dataset.
 
+sex variable contains two integer values 1 and 0 : (1 = male; 0 = female).
+
 cp: chest pain type
 -- Value 0: asymptomatic
 -- Value 1: atypical angina
